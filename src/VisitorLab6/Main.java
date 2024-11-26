@@ -22,7 +22,6 @@ public class Main {
         panel2.add(button4);
         panel2.add(button5);
 
-
         CountElement count = new CountElement();
         panel1.accept(count);
         System.out.println("Number of buttons: " + count.getButtonCount());
